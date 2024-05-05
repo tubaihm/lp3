@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* ページ全体のスタイル ----------*/
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  line-height: 1.5;
+  color: #333;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+}
+
+li {
+  list-style: none;
+}
+
+/* 部品 */
+.container {
+  margin: 0 5.1282051282vw;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 246.1538461538vw;
+    margin: 0 auto;
+  }
+}
+/* ヘッダー ----------*/
+.header {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+}
+
+.header-block {
+  display: flex;
+}
+
+/* メインビジュアル ----------*/
+.cover {
+  background-image: url(/assets/image/cover/mv_01_sp.jpg);
+}
+
+/* プレゼント ----------*/
+.present {
+  background-color: #fffedd;
+}
+
+/* キャンペーン ----------*/
+/* 無料体験 ----------*/
+/* ポイント ----------*/
+.point {
+  background-color: #fdf0f5;
+}
+
+/* コース ----------*/
+/* 口コミ ----------*/
+.customer {
+  background-color: #fdf0f5;
+}
+
+/* フッター ----------*/
+.footer {
+  background-color: #fa7da3;
+}/*# sourceMappingURL=main.css.map */
