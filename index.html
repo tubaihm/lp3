@@ -31,13 +31,15 @@
 <body>
     <!-- ヘッダー -->
     <header class="header">
-        <h1 class="header-logo"><img src="/assets/image/logo.png" alt="KBL Kirameki Beauty Labo"></h1>
+        <h1 class="header-logo">
+            <a href="/"><img src="/assets/image/logo.png" alt="KBL Kirameki Beauty Labo" class="header-logo__image"></a>
+        </h1>
         <div class="header-block">
-            <a href="" class="header-block__button header-block__button--contact">
+            <a href="/contact/" class="header-block__button header-block__button--contact">
                 <div>お問い合わせ</div>
                 <img src="/assets/image/arrow.png" alt="" class="header-block__image">
             </a>
-            <a href="" class="header-block__button header-block__button--reserve">
+            <a href="/reservation/" class="header-block__button header-block__button--reserve">
                 <div>カウンセリング予約<span class="header-block__button--small">(無料)</span></div>
                 <img src="/assets/image/arrow.png" alt="" class="header-block__image">
             </a>
@@ -83,7 +85,9 @@
         <!-- プレゼント -->
         <div class="present">
             <div class="present__container">
-                <div class="present__catch">今だけ！</div>
+                <div class="present__catch">
+                    <p class="present__inner">今だけ！</p>
+                </div>
                 <div class="present-content">
                     <div class="present-content__head">フェイシャルコース</div>
                     <div class="present-content__foot"><span class="present-content__foot--big">3</span>回プレゼント！</div>
@@ -96,7 +100,7 @@
         <div class="campaign">
             <div class="campaign__container">
                 <div class="campaign__heading">無料体験実施中！</div>
-                <a href="" class="campaign-link">
+                <a href="/reservation/" class="campaign-link">
                     <div class="campaign-link__text">
                         <span class="campaign-link__text">カウンセリング予約</span>
                         <span class="campaign-link__text">はこちら（無料）</span>
@@ -121,10 +125,10 @@
         <!-- ポイント -->
         <section class="point">
             <div class="point__container">
-                <h3 class="section-title">
+                <h2 class="section-title">
                     <div class="section-title__head section-title--point__head">
-                        <div class="section-title__logo-image"><img src="/assets/image/Kirameki_Beauty_Labo.png"
-                                alt="Kirameki Beauty Labo"></div>
+                        <div><img src="/assets/image/Kirameki_Beauty_Labo.png" alt="Kirameki Beauty Labo"
+                                class="section-title__logo-image"></div>
                         <div class="section-title__head section-title__head--brown">が選ばれる</div>
                     </div>
                     <div class="section-title__heading">
@@ -132,7 +136,7 @@
                         <p>3つのポイント</p>
                         <img src="/assets/image/shape_right.png" alt="" class="section-title__image">
                     </div>
-                </h3>
+                </h2>
                 <div class="point__wrap">
                     <!-- 1個目 -->
                     <div class="point__content">
@@ -210,10 +214,10 @@
         </section>
 
         <!-- キャンペーン -->
-        <div class="campaign">
+        <div class="campaign campaign--02">
             <div class="campaign__container">
                 <div class="campaign__heading">無料体験実施中！</div>
-                <a href="" class="campaign-link">
+                <a href="/reservation/" class="campaign-link">
                     <div class="campaign-link__text">カウンセリング予約はこちら（無料）</div>
                     <img src="/assets/image/arrow.png" alt="" class="campaign-link__icon">
                 </a>
@@ -223,26 +227,28 @@
         <!-- コース -->
         <section class="course">
             <div class="course__container">
-                <h3 class="section-title">
+                <h2 class="section-title">
                     <div class="section-title__head section-title__head--course">ほかにも選べる！</div>
                     <div class="section-title__heading section-title__heading--course">
                         <img src="/assets/image/shape_left.png" alt="" class="section-title__image">
                         <p>2つのコース</p>
                         <img src="/assets/image/shape_right.png" alt="" class="section-title__image">
                     </div>
-                </h3>
-                <div class="course-content">
-                    <div class="course-content__heading">ボディコース</div>
-                    <div class="course-content__body">
-                        <p class="course-content__text">ボディケアのスペシャリストが、お客様のお肌を優しく施術いたします。</p>
-                        <img src="/assets/image/course/course_01.jpg" alt="" class="course-content__image">
+                </h2>
+                <div class="course__body">
+                    <div class="course-content">
+                        <div class="course-content__heading">ボディコース</div>
+                        <div class="course-content__body">
+                            <p class="course-content__text">ボディケアのスペシャリストが、お客様のお肌を優しく施術いたします。</p>
+                            <img src="/assets/image/course/course_01.jpg" alt="" class="course-content__image">
+                        </div>
                     </div>
-                </div>
-                <div class="course-content course-content--02">
-                    <div class="course-content__heading">フェイシャルコース</div>
-                    <div class="course-content__body">
-                        <p class="course-content__text">確かな技術を持つエステティシャンが、お客様の理想のお肌に近づけます。</p>
-                        <img src="/assets/image/course/course_02.jpg" alt="" class="course-content__image">
+                    <div class="course-content course-content--02">
+                        <div class="course-content__heading">フェイシャルコース</div>
+                        <div class="course-content__body">
+                            <p class="course-content__text course-content__text--02">確かな技術を持つエステティシャンが、お客様の理想のお肌に近づけます。</p>
+                            <img src="/assets/image/course/course_02.jpg" alt="" class="course-content__image">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -251,13 +257,13 @@
         <!-- 口コミ -->
         <section class="customer">
             <div class="customer__container">
-                <h3 class="section-title">
+                <h2 class="section-title">
                     <div class="section-title__heading section-title__heading--customer">
                         <img src="/assets/image/shape_left.png" alt="" class="section-title__image">
                         <p>お客様の声</p>
                         <img src="/assets/image/shape_right.png" alt="" class="section-title__image">
                     </div>
-                </h3>
+                </h2>
                 <div class="carousel">
                     <!-- 1人目 -->
                     <div class="slider-item">
@@ -309,7 +315,7 @@
         <div class="campaign">
             <div class="campaign__container">
                 <div class="campaign__heading">無料体験実施中！</div>
-                <a href="" class="campaign-link">
+                <a href="/reservation/" class="campaign-link">
                     <div class="campaign-link__text">カウンセリング予約はこちら（無料）</div>
                     <img src="/assets/image/arrow.png" alt="" class="campaign-link__icon">
                 </a>
@@ -319,7 +325,9 @@
 
     <!-- フッター -->
     <footer class="footer">
-        <div class="footer-logo"><img src="/assets/image/logo_white.png" alt="KBL Kirameki Beauty Labo"></div>
+        <div class="footer-logo">
+            <a href="/"><img src="/assets/image/logo_white.png" alt="KBL Kirameki Beauty Labo"></a>
+        </div>
     </footer>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

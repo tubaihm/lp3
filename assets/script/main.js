@@ -1,19 +1,17 @@
-if (window.matchMedia( "(max-width: 768px)" ).matches) {
+$(function () {
     $('.carousel').slick({
-        autoplay: false,
-        arrows: false,
-        dots: true,
-        centerMode: true,
-        variableWidth: true,
-    }
-    );  
-} else {
-    $('.carousel').slick({
-        autoplay: false,
         arrows: false,
         dots: true,
         slidetoShow: 3,
-        slidetoScroll: 1,
-        }
-    );
-}
+        responsive: [
+            {
+                breakpoint: 767, // 399px以下のサイズに適用
+                settings: {
+                    centerMode: true,
+                    variableWidth: true,
+                            },
+            },
+        ],
+    });
+});
+
