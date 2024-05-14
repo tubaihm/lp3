@@ -222,10 +222,10 @@ li {
 }
 
 .header-logo {
-  margin-left: vw(3);
-  margin-bottom: vw(6);
-
   &__image {
+    position: absolute;
+    top: vw(10);
+    left: vw(12);
     width: vw(72);
   }
 }
@@ -276,10 +276,9 @@ li {
   }
 
   .header-logo {
-    margin-left: 0;
-    margin-bottom: vwPC(2);
-
     &__image {
+      top: vwPC(18);
+      left: vwPC(208);
       width: vwPC(97);
     }
   }
@@ -824,7 +823,7 @@ li {
       font-size: vwPC(28);
       letter-spacing: vwPC(2.8);
       border-top: solid vwPC(2);
-      border-bottom: solid vwPC(2);  
+      border-bottom: solid vwPC(2);
     }
 
     &__text {
@@ -1296,8 +1295,8 @@ li {
 
     &__body {
       @include content-body_pc;
-      padding: vwPC(14) vwPC(22) vwPC(14) vwPC(17);
       column-gap: vwPC(15);
+      padding: vwPC(14) vwPC(22) vwPC(14) vwPC(17);
     }
 
     &__avater {
@@ -1316,6 +1315,7 @@ li {
     &__text {
       margin-top: vwPC(5);
       font-size: vwPC(14.01);
+      letter-spacing: vwPC(-.1);
     }
   }
 

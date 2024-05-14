@@ -124,11 +124,10 @@ li {
   z-index: 100;
 }
 
-.header-logo {
-  margin-left: 0.7692307692vw;
-  margin-bottom: 1.5384615385vw;
-}
 .header-logo__image {
+  position: absolute;
+  top: 2.5641025641vw;
+  left: 3.0769230769vw;
   width: 18.4615384615vw;
 }
 
@@ -172,11 +171,9 @@ li {
     padding: 0 14.4444444444vw;
     height: 6.3888888889vw;
   }
-  .header-logo {
-    margin-left: 0;
-    margin-bottom: 0.1388888889vw;
-  }
   .header-logo__image {
+    top: 1.25vw;
+    left: 14.4444444444vw;
     width: 6.7361111111vw;
   }
   .header-block {
@@ -1057,9 +1054,9 @@ li {
   }
   .customer-content__body {
     border-radius: 0 0 0.625vw 0.625vw;
-    padding: 0.9722222222vw 1.5277777778vw 0.9722222222vw 1.1805555556vw;
     -moz-column-gap: 1.0416666667vw;
          column-gap: 1.0416666667vw;
+    padding: 0.9722222222vw 1.5277777778vw 0.9722222222vw 1.1805555556vw;
   }
   .customer-content__avater {
     width: 5.9722222222vw;
@@ -1073,6 +1070,7 @@ li {
   .content-wrap__text {
     margin-top: 0.3472222222vw;
     font-size: 0.9729166667vw;
+    letter-spacing: -0.0069444444vw;
   }
   .slick-slider {
     margin: 0 auto;
