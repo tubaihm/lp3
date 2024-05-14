@@ -127,7 +127,9 @@ li {
   }
 
   &__logo-image {
+    margin-top: vw(12);
     width: vw(198);
+    height: vw(15);
   }
 
   &__heading {
@@ -179,13 +181,14 @@ li {
     }
 
     &__logo-image {
-      padding-bottom: vwPC(4);
+      margin-top: vwPC(17);
       width: vwPC(262);
+      height: vwPC(20);
     }
 
     &__heading {
       column-gap: vwPC(6);
-      margin-top: vwPC(10);
+      margin-top: vwPC(8);
       font-size: vwPC(42);
       letter-spacing: 0;
 
@@ -998,6 +1001,7 @@ li {
 
     &__content {
       @include content-box_pc;
+      margin-top: vwPC(46);
       margin-bottom: vwPC(50);
     }
 
@@ -1100,7 +1104,7 @@ li {
 
 /* コース ----------*/
 .course {
-  padding-top: vw(32);
+  padding-top: vw(23);
   padding-bottom: vw(21);
 
   &__container {

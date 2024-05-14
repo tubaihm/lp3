@@ -44,7 +44,9 @@ li {
   margin-left: 1.2820512821vw;
 }
 .section-title__logo-image {
+  margin-top: 3.0769230769vw;
   width: 50.7692307692vw;
+  height: 3.8461538462vw;
 }
 .section-title__heading {
   display: flex;
@@ -87,13 +89,14 @@ li {
     font-size: 1.6666666667vw;
   }
   .section-title__logo-image {
-    padding-bottom: 0.2777777778vw;
+    margin-top: 1.1805555556vw;
     width: 18.1944444444vw;
+    height: 1.3888888889vw;
   }
   .section-title__heading {
     -moz-column-gap: 0.4166666667vw;
          column-gap: 0.4166666667vw;
-    margin-top: 0.6944444444vw;
+    margin-top: 0.5555555556vw;
     font-size: 2.9166666667vw;
     letter-spacing: 0;
   }
@@ -794,6 +797,7 @@ li {
   }
   .point__content {
     border-radius: 0.6944444444vw;
+    margin-top: 3.1944444444vw;
     margin-bottom: 3.4722222222vw;
   }
   .point__heading {
@@ -873,7 +877,7 @@ li {
 }
 /* コース ----------*/
 .course {
-  padding-top: 8.2051282051vw;
+  padding-top: 5.8974358974vw;
   padding-bottom: 5.3846153846vw;
 }
 .course__container {
